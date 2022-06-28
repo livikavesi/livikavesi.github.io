@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 :root {
-  --color-aqua: rgb(105, 230, 230);
+    --color-aqua: rgb(105, 230, 230);
+    --color-white: white;
+}
+html {
+    background-color: var(--color-white);
 }
 a {
     color: goldenrod;
     text-decoration: none;
     padding: 2px;
+    text-shadow: 1px 1px 1px black;
 }
 /* Nav Bar Section */
 /* Nav Bar Section */
@@ -123,4 +128,21 @@ h1 {
   width: auto;
   min-height: 5vh;
   line-height: 5vh;
+}
+
+/* Contact Section */
+/* Contact Section */
+/* Contact Section */
+#contact {
+    background-color: var(--color-aqua);
+    padding: 25px;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+#contact-container {
+    background-color: var(--color-white);
+    padding: 25px;
 }
