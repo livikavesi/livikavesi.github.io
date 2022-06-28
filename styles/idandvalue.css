@@ -1,0 +1,20 @@
+#hero-background-img {
+    background-image: url(/images/family.jpg);
+    height: 40vh;
+    padding-top: 35px;
+}
+main {
+    background-color: white;
+}
+.flex-row {
+    display: flex;
+}
+
+#profile-img-container {
+    width: 35vw;
+}
+img {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
