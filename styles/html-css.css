@@ -1,0 +1,18 @@
+:root {
+    --color-aqua: rgb(105, 230, 230);
+    --color-white: white;
+}
+#hero-id {
+    background-image: url(/images/techdoc.jpeg);
+    background-position: center;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#td-h1 {
+    text-align: center;
+    color: var(--color-white);
+    padding: 0px 135px 0px 135px;
+    background-color: rgba(0, 0, 0, 0.699);
+}

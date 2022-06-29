@@ -39,27 +39,6 @@
   font-family: "Yellowtail", cursive, fantasy;
   border-bottom: 2px solid black;
 }
-@media screen and (max-width: 600px) {
-  main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/images/family-filter.jpg);
-    transition: ease-in;
-    transition-duration: 5s;
-  }
-  #profile-img-container {
-    width: 200px;
-    height: 200px;
-
-  }
-  #qoute {
-    margin: 0px;
-    margin-top: 12vh;
-    background-color: white;
-  }
-}
 /* Content Section  */
 /* Content Section  */
 /* Content Section  */
@@ -101,3 +80,27 @@ td {
     font-size: 5rem;
     padding-top: 15px;
 }
+/* responsive */
+/* responsive */
+/* responsive */
+@media screen and (max-width: 600px) {
+    main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url(/images/family-filter.jpg);
+      transition: ease-in;
+      transition-duration: 5s;
+    }
+    #profile-img-container {
+      width: 200px;
+      height: 200px;
+  
+    }
+    #qoute {
+      margin: 0px;
+      margin-top: 12vh;
+      background-color: white;
+    }
+  }
