@@ -5,53 +5,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/styles/html-css.css">
+    <title>Technical Document</title>
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/html-css.css">
 </head>
 
 <body>
     <nav id="nav-bar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#blog">Blogs</a>
-        <a href="#contact">Contact</a>
+        <a href="/index.html">Home</a>
+        <a href="/index.html/#about">About</a>
+        <a href="/index.html/#blog">Blogs</a>
+        <a href="/index.html/#contact">Contact</a>
     </nav>
     <main>
-        <div id="hero-id">
-            <h1 id="td-h1">What does it mean to display inline vs inline blocks?</h1>
+        <div id="hero-techdoc">
+            <h1 id="techdoc-h1">
+                What does it mean to display inline vs inline blocks?
+            </h1>
         </div>
-        <div id="content">
-            <section>
-                <h3>Introduction</h3>
-                <p>Building Blocks</p>
-                <p>CSS treats each HTML element as if it is in its
-                    own box. This box will either be a block-level
-                    box or an inline box.
-                </p>
-                <p>Block-level boxes start on a new line and act as the 
-                    main building blocks of any layout, while inline boxes 
-                    flow between surrounding text. You can control how 
-                    much space each box takes up by setting the width of the
-                    boxes (and sometimes the height, too). To separate boxes, 
-                    you can useborders, margins, padding, and background 
-                    colors.
-                </p>
-                <div>
-                    <p>Block-level elements</p>
-                    <p>start on a new line</p>
-                    <p>Examples include: <code>&lt;h1&gt; &lt;p&gt; &lt;ul&gt; &lt;li&gt; &lt;li&gt;</code></p>
-                </div>
-                <div>
-                    <p>Inline elements</p>
-                    <p>flow in betweensurrounding text</p>
-                    <p>Examples include:<code>&lt;img&gt; &lt;b&gt; &lt;i&gt;</code></p>
-                </div>
-            </section>
-            <section>
-                
-            </section>
+        <div id="first-box">
+            <p id="bd-block" class="orange larger-font">Building Blocks</p>
+            <p>CSS treats each HTML element as if it is in its
+                own box. This box will either be a block-level
+                box or an inline box.
+            </p>
+            <p>Block-level boxes start on a new line and act as the
+                main building blocks of any layout, while inline boxes
+                flow between surrounding text. You can control how
+                much space each box takes up by setting the width of the
+                boxes (and sometimes the height, too). To separate boxes,
+                you can useborders, margins, padding, and background
+                colors.
+            </p>
         </div>
+        <div class="second-box">
+            <div>
+                <p class="orange max-width-p">Block-level elements</p>
+                <p class="max-width-p">start on a new line</p>
+                <p class="max-width-p">Examples include:
+                    <br>
+                    <code>
+                        &lt;h1&gt; &lt;p&gt; &lt;ul&gt; &lt;li&gt;
+                    </code>
+                </p>
+            </div>
+            <div id="example-one" class="example"></div>
+        </div>
+        <div class="second-box">
+            <div>
+                <p class="orange max-width-p">Inline elements</p>
+                <p class="max-width-p">flow in between surrounding text</p>
+                <p class="max-width-p">Examples include:
+                    <br>
+                    <code>
+                        &lt;img&gt; &lt;b&gt; &lt;i&gt;
+                    </code>
+                </p>
+            </div>
+            <div id="example-two" class="example"></div>
+        </div>
+
+
     </main>
 </body>
 

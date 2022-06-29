@@ -5,7 +5,9 @@
 }
 :root {
     --color-aqua: rgb(105, 230, 230);
-    --color-white: white;
+    --color-white: rgba(239, 233, 233, 0.863);
+    --color-orange: rgb(230, 54, 0);
+    ---color-black: rgba(11, 10, 10, 0.824);
 }
 html {
     background-color: var(--color-white);

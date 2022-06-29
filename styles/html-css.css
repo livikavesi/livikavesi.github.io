@@ -1,8 +1,21 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 :root {
     --color-aqua: rgb(105, 230, 230);
-    --color-white: white;
+    --color-white: rgba(239, 233, 233, 0.863);
+    --color-orange: rgb(236, 83, 36);
+    ---color-black: rgba(11, 10, 10, 0.824);
 }
-#hero-id {
+main {
+    background-color: var(---color-black);
+    color: var(--color-white);
+    text-align: justify;
+}
+/* hero section */
+/* hero section */
+/* hero section */
+#hero-techdoc {
     background-image: url(/images/techdoc.jpeg);
     background-position: center;
     height: 45vh;
@@ -10,9 +23,56 @@
     justify-content: center;
     align-items: center;
 }
-#td-h1 {
+#techdoc-h1 {
     text-align: center;
     color: var(--color-white);
-    padding: 0px 135px 0px 135px;
-    background-color: rgba(0, 0, 0, 0.699);
+    padding: 5px 15vw 0px 15vw;
+    background-color: rgba(31, 30, 30, 0.699);
+}
+/* main content */
+/* main content */
+/* main content */
+
+#first-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+#first-box p {
+    max-width: 375px;
+    padding: 10px;
+}
+.second-box {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+#example-one {
+    background-image: url(/images/block-level-el.png);
+}
+#example-two {
+    background-image: url(/images/inline-el.png);
+}
+.example {
+    width: 40vw;
+    height: 45vh;
+    border: 5px solid white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.orange {
+    color: var(--color-orange);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.larger-font {
+    font-size: 2rem;
+} 
+.max-width-p {
+    max-width: 150px;
 }
