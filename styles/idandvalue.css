@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 
+:root {
+    --color-aqua: rgb(105, 230, 230);
+    --color-white: white;
+}
 .center-content {
   display: flex;
   justify-content: center;
@@ -60,6 +64,40 @@
 /* Content Section  */
 /* Content Section  */
 #content {
-    margin: 25px;
-    padding: 100px 25px 25px 25px;
+    padding: 100px 0px 25px 0px;
+}
+.qa-container {
+    background-color: var(--color-aqua);
+}
+.qa-container p, table {
+    text-align: justify;
+    padding: 15px 100px 15px 100px;
+    /* max-width: 1000px; */
+}
+.question {
+    font-size: 2rem;
+}
+.answer, table {
+    font-size: 1.3rem;
+    background-color: var(--color-white);
+}
+table {
+    width: 100%;
+}
+.bold {
+    font-weight: bolder;
+}
+th {
+    padding-left: 35px;
+}
+td {
+    padding: 10px;
+}
+#h2-container {
+    text-align: center;
+    padding-bottom: 35px;
+}
+#idvalue {
+    font-size: 5rem;
+    padding-top: 15px;
 }
