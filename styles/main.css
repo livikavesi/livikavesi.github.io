@@ -10,6 +10,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #main-body {
   font-family: "Courier New", Courier, monospace;
@@ -49,7 +50,7 @@
 /* nav-bar */
 /* nav-bar */
 /* nav-bar */
-#main-nav {
+#main-nav  {
   border-top: 2px solid var(--color-black);
   border-bottom: 2px solid var(--color-black);
   display: flex;
