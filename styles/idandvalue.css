@@ -1,9 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
-
 :root {
-    --color-aqua: rgb(105, 230, 230);
-    --color-white: white;
+    --color-goldenrod: gold;
+    --color-highlight: rgba(205, 230, 236, 0.715);
+    --color-white: #ededed;
+    --color-fade: #edededc3;
+    --color-black: black;
+  }
+/* nav bar */
+/* nav bar */
+/* nav bar */
+.blog-nav {
+  border-top: 2px solid var(--color-black);
+  border-bottom: 2px solid var(--color-black);
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: fixed;
+  background-color: var(--color-fade);
 }
+.blog-nav div {
+  width: 250px;
+  height: 50px;
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+}
+.blog-nav a {
+  color: var(--color-black);
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+.blog-nav a:hover {
+  background-color: var(--color-highlight);
+  font-size: 110%;
+  font-weight: bolder;
+  text-shadow: -1px -1px 1px var(--color-goldenrod);
+}
+/* main */
+/* main */
+/* main */
 .center-content {
   display: flex;
   justify-content: center;
@@ -43,64 +82,65 @@
 /* Content Section  */
 /* Content Section  */
 #content {
-    padding: 100px 0px 25px 0px;
+  padding: 100px 0px 25px 0px;
 }
 .qa-container {
-    background-color: var(--color-aqua);
+  background-color: var(--color-aqua);
 }
-.qa-container p, table {
-    text-align: justify;
-    padding: 15px 100px 15px 100px;
-    /* max-width: 1000px; */
+.qa-container p,
+table {
+  text-align: justify;
+  padding: 15px 100px 15px 100px;
+  /* max-width: 1000px; */
 }
 .question {
-    font-size: 2rem;
+  font-size: 2rem;
 }
-.answer, table {
-    font-size: 1.3rem;
-    background-color: var(--color-white);
+.answer,
+table {
+  font-size: 1.3rem;
+  background-color: var(--color-white);
 }
 table {
-    width: 100%;
+  width: 100%;
 }
 .bold {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 th {
-    padding-left: 35px;
+  padding-left: 35px;
 }
 td {
-    padding: 10px;
+  padding: 10px;
 }
 #h2-container {
-    text-align: center;
-    padding-bottom: 35px;
+  text-align: center;
+  padding-bottom: 35px;
 }
 #idvalue {
-    font-size: 4rem;
-    padding-top: 15px;
+  font-size: 4rem;
+  padding-top: 15px;
 }
 /* responsive */
 /* responsive */
 /* responsive */
 @media screen and (max-width: 600px) {
-    main {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-image: url(/images/family-filter.jpg);
-      transition: ease-in;
-      transition-duration: 5s;
-    }
-    #profile-img-container {
-      width: 200px;
-      height: 200px;
-  
-    }
-    #qoute {
-      margin: 0px;
-      margin-top: 12vh;
-      background-color: white;
-    }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/family-filter.jpg);
+    transition: ease-in;
+    transition-duration: 5s;
   }
+  #profile-img-container {
+    width: 200px;
+    height: 200px;
+  }
+  #qoute {
+    margin: 0px;
+    margin-top: 12vh;
+    background-color: white;
+  }
+}
