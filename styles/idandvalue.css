@@ -37,6 +37,7 @@
 .blog-nav a:hover {
   background-color: var(--color-highlight);
   font-size: 110%;
+  font-weight: bolder;
   text-shadow: -1px -1px 1px var(--color-goldenrod);
 }
 /* main */
