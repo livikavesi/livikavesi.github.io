@@ -1,0 +1,93 @@
+:root {
+  --color-goldenrod: gold;
+  --color-highlight: rgba(205, 230, 236, 0.715);
+  --color-white: #ededed;
+  --color-fade: #edededc3;
+  --color-black: black;
+}
+
+/* nav bar */
+/* nav bar */
+/* nav bar */
+.blog-nav {
+  border-top: 2px solid var(--color-black);
+  border-bottom: 2px solid var(--color-black);
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: fixed;
+  background-color: var(--color-fade);
+}
+.blog-nav div {
+  width: 250px;
+  height: 50px;
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+}
+.blog-nav a {
+  color: var(--color-black);
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+.blog-nav a:hover {
+  background-color: var(--color-highlight);
+  font-size: 110%;
+  font-weight: bolder;
+  text-shadow: -1px -1px 1px var(--color-goldenrod);
+}
+/* main */
+/* main */
+/* main */
+#plan-body {
+  display: flex;
+  justify-content: center;
+}
+#plan-main {
+  text-align: center;
+  max-width: 1000px;
+  min-width: 320px;
+  letter-spacing: 0.03rem;
+  background-color: var(--color-white);
+  padding: 25px;
+}
+/* hero */
+/* hero */
+/* hero */
+#plan-hero {
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#plan-hero h1{
+    background-color:var(--color-fade);
+    width: 100%;
+    padding: 10px;
+    text-shadow: 1px 1px 1px white;
+}
+/* Q & A */
+/* Q & A */
+/* Q & A */
+#goal {
+    font-size: larger;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+.answers {
+    background-color: var(--color-highlight);
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+.question {
+    font-weight: bold;
+    padding-top: 15px;
+}
