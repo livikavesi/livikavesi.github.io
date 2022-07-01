@@ -81,7 +81,9 @@
 /* img container */
 /* img container */
 /* img container */
-#main-img-container, #second-img-container {
+#main-img-container, 
+#second-img-container,
+#third-img-container {
   display: flex;
   margin: 20px 10vw;
 }
@@ -147,9 +149,7 @@ main p {
   /* color: var(--color-black); */
   text-shadow: -1px -1px 1px var(--color-goldenrod);
 }
-#second-img-container {
-  display: none;
-}
-#hidden {
+#second-img-container,
+#third-img-container {
   display: none;
 }
