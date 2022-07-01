@@ -81,7 +81,7 @@
 /* img container */
 /* img container */
 /* img container */
-#main-img-container {
+#main-img-container, #second-img-container {
   display: flex;
   margin: 20px 10vw;
 }
@@ -146,4 +146,7 @@ main p {
   background-color: var(--color-white);
   /* color: var(--color-black); */
   text-shadow: -1px -1px 1px var(--color-goldenrod);
+}
+#second-img-container {
+  display: none;
 }
