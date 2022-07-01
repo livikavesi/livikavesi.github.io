@@ -150,3 +150,6 @@ main p {
 #second-img-container {
   display: none;
 }
+#hidden {
+  display: none;
+}
