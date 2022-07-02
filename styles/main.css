@@ -89,7 +89,7 @@
 }
 .img-container {
   width: 30vw;
-  height: 25vh;
+  height: 35vh;
   background-image: url(/images/placeholder.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -116,7 +116,27 @@ main p {
   text-align: center;
   padding: 10px;
 }
-
+#img-sprint-one {
+  background-image: url(/images/placeholders/sprint-one.jpg);
+}
+#img-sprint-two {
+  background-image: url(/images/placeholders/sprint-two.jpg);
+}
+#img-sprint-three {
+  background-image: url(/images/placeholders/sprint-three.jpg);
+}
+#img-id-value {
+  background-image: url(/images/placeholders/id-value.jpg);
+}
+#img-learning-plan {
+  background-image: url(/images/placeholders/learning-plan.jpg);
+}
+#img-techdoc {
+  background-image: url(/images/placeholders/texh-doc.jfif);
+}
+#img-template {
+  background-image: url(/images/placeholders/template.png);
+}
 /* about content */
 /* about content */
 /* about content */
