@@ -78,6 +78,9 @@
   font-size: 110%;
   text-shadow: -1px -1px 1px var(--color-goldenrod);
 }
+#to-top {
+  display: none;
+}
 /* img container */
 /* img container */
 /* img container */
@@ -112,10 +115,13 @@
   color: var(--color-white);
   background-color: rgba(0, 0, 0, 0.137);
 }
-main p {
+#main p {
   text-align: center;
   padding: 10px;
 }
+/* image container */
+/* image container */
+/* image container */
 #img-sprint-one {
   background-image: url(/images/placeholders/sprint-one.jpg);
 }
@@ -178,7 +184,7 @@ main p {
 .fa {
   padding: 20px;
   font-size: 30px;
-  /* width: 50px; */
+  width: 80px;
   margin: 10px;
   text-align: center;
   text-decoration: none;
@@ -212,5 +218,63 @@ main p {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-
-
+/* responsive */
+/* responsive */
+/* responsive */
+@media (max-width: 750px) {
+  #profile {
+    display: none;
+  }
+  #main-nav {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+  }
+  #main-nav div {
+    width: 100%;
+  }
+  #main-nav a {
+    border-bottom: 1px solid var(--color-black);
+    width: 95%;
+  }
+  #main-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-container {
+    padding: 0;
+    margin: 0;
+  }
+  #main-img-container div {
+    width: 100%;
+  }
+  #about-content p {
+    padding: 5px;
+  }
+  #to-top {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--color-highlight);
+  }
+  #second-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #second-img-container div {
+    width: 80vw;;
+  }
+  #third-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #third-img-container div {
+    width: 80vw;;
+  }
+}
