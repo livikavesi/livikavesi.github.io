@@ -36,7 +36,7 @@ aboutBtn.onclick = () => {
     thirdImgContainer.style.display = 'none';
     mainImgContainer.style.display = 'none';
     aboutContent.style.display = 'flex';
-    aboutContent.style.flexDirection = 'column';
+    // aboutContent.style.flexDirection = 'row';
     contactContent.style.display = 'none';
 }
 contactBtn.onclick = () => {
