@@ -1,0 +1,22 @@
+:root {
+  --color-goldenrod: gold;
+  --color-highlight: rgba(205, 230, 236, 0.715);
+  --color-white: #ededed;
+  --color-fade: #edededc3;
+  --color-black: black;
+}
+#cultural-blog-body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cultural-blog-h1 {
+    font-weight: 700;
+    text-align: center;
+}
+.cultureal-blog-question {
+  font-weight: 700;
+  text-align: center;
+}
+.cultural-blog-answer {
+  background-color: var(--color-highlight);
+  padding: 10px 20vw;
+}
