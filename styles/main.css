@@ -6,6 +6,7 @@
   --color-highlight: rgba(205, 230, 236, 0.715);
   --color-white: #ededed;
   --color-black: black;
+  --color-blue: #2d467d;
 }
 * {
   margin: 0;
@@ -170,7 +171,9 @@
   font-weight: 100;
 }
 #second-img-container,
-#third-img-container {
+#third-img-container,
+#about-content,
+#contact {
   display: none;
 }
 #about-float-left {
@@ -233,9 +236,32 @@
 /* responsive */
 /* responsive */
 /* responsive */
-@media (max-width: 750px) {
+@media (max-width: 350px) {
+  #welcome-container {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    text-align: center;
+    width: 100vw;
+    height: auto;
+    letter-spacing: 0.02px;
+  }
+  #main {
+    color: var(--color-white);
+    padding-top: 10px;
+    background-color: var(--color-blue);
+  }
+  #main div {
+    margin: 20px 0 20px 0;
+    width: 100vw;
+  }
   #profile {
     display: none;
+  }
+}
+@media (max-width: 750px) {
+  #profile {
+    max-width: 120px;
+    max-height: 120px;
   }
   #main-nav {
     display: flex;
@@ -293,3 +319,4 @@
     width: 80vw;;
   }
 }
+
