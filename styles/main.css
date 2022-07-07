@@ -147,6 +147,9 @@
 #img-template {
   background-image: url(/images/placeholders/template.png);
 }
+#img-dom {
+  background-image: url(/images/placeholders/js-dom-img.jpg);
+}
 #about-img-container {
   width: 200px;
   height: 300px;
