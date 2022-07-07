@@ -46,3 +46,4 @@ contactBtn.onclick = () => {
     aboutContent.style.display = 'none';
     contactContent.style.display = 'flex';
 }
+

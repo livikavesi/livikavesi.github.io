@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript DOM</title>
+    <link rel="stylesheet" href="/styles/javascript-dom.css">
 </head>
-<body>
-    <h1>JavaScript DOM</h1>
+<body id="dom-body">
+    <section>
+        <h1>JavaScript DOM</h1>
+    </section>
     <section>
         <h2>JavaScript and its relationship to HTML and CSS.</h2>
         <div>
@@ -16,6 +19,9 @@
                 HTML and CSS control the content and styling of a page, while JavaScript 
                 is used to make it interactive.
             </p>
+            <div class="flex-center">
+                <img id="code-icon" src="/images/placeholders/coding-lang-icons.png" />
+            </div>
             <p>
                 HTML helps you structure your page into elements such as paragraphs, sections, 
                 headings, navigation bars, and so on
@@ -31,34 +37,51 @@
                 the programming language. You can program actions, conditions, calculations, 
                 network requests, concurrent tasks and many other kinds of instructions. 
             </p>
-            <p>
-                Example - HTML is the body of a car, CSS is the paint job and the JavaScript is 
-                all the wires/parts connecting the cars buttons, gears, ignition etc. When you 
-                beep the horn it triggers a loud sound. When you turn the key the engine roars. 
-                When you turn the steering wheel the car turns.  
-
-            </p>
+            <div>
+                <div class="flex-center">
+                    <div id="car-html" class="example-car">
+                        <p class="car-text">HTML</p>
+                    </div>
+                    <div id="car-css" class="example-car">
+                        <p class="car-text">CSS</p>
+                    </div>
+                    <div id="car-js" class="example-car">
+                        <p class="car-text">JAVASCRIPT</p>
+                    </div>
+                </div>
+                <p>
+                    Example - HTML is the body of a car, CSS is the paint job and the JavaScript is 
+                    all the wires/parts connecting the cars buttons, gears, ignition etc. When you 
+                    beep the horn it triggers a loud sound. When you turn the key the engine roars. 
+                    When you turn the steering wheel the car turns.      
+                </p>
+                
+            </div>
         </div>
     </section>
     <section>
-        <h2>Control Flow</h2>
-        <div>
-            <p>
-                Control flow is a technical term in JavaScript. It is how the computer runs code 
-                from top to bottom. It is similar to how we read a book, line by line. There are 
-                statement that changes the control flow of the program such as loops, conditionals, 
-                or functions. 
-            </p>
+        <div class="flex-center">
+            <h2>Control Flow</h2>
+            <div>
+                <p>
+                    Control flow is a technical term in JavaScript. It is how the computer runs code 
+                    from top to bottom. It is similar to how we read a book, line by line. There are 
+                    statement that changes the control flow of the program such as loops, conditionals, 
+                    or functions. 
+                </p>
+            </div>
         </div>
-        <h2>Loops</h2>
-        <div>
-            <p>
-                Loops are a way to execute the same code block a specific number of times. Its like 
-                reading the same paragraph over and over consecutively. This can be helpful in many 
-                ways. In the example you might understand the content of the paragraph more each read 
-                through. In coding, looping can add value or information to other codes automatically 
-                instead of inputting them manually. 
-            </p>
+        <div class="flex-center flex-reverse">
+            <h2>Loops</h2>
+            <div>
+                <p>
+                    Loops are a way to execute the same code block a specific number of times. Its like 
+                    reading the same paragraph over and over consecutively. This can be helpful in many 
+                    ways. In the example you might understand the content of the paragraph more each read 
+                    through. In coding, looping can add value or information to other codes automatically 
+                    instead of inputting them manually. 
+                </p>
+            </div>
         </div>
     </section>
     <section>
@@ -69,14 +92,15 @@
                 collection which can be accessed by using a numerical index. 
             </p>
             <p>
-
+                <img src="/images/placeholders/array.png" />
             </p>
             <p>
                 Objects are best use to represent real world things like cars, houses, people. Each object 
                 contains properties that is access through a name / value pair method. 
             </p>
             <p>
-                
+                <img src="/images/placeholders/object.png" />
+
             </p>
         </div>
     </section>
@@ -90,50 +114,54 @@
                 Tree and each instances or nodes can be describe as objects. Each object contains 
                 property you can get or set by using JavaScript methods.             
             </p>
-            <p>
-                Example - document.getElementById('greetings') access the HTML document then gets 
-                the elements that has an id of 'greetings'. Then you can manipulate the element by 
-                adding 
-            </p>
+            <div class="flex-center">
+                <div id="dom-tree">
+                    <img src="/images/placeholders/dom-tree.webp" />
+                </div>
+                <div id="obj-eg">
+                    <img src="/images/placeholders/objectaccess.png" alt="" />
+                </div>
+            </div>
+            
         </div>
     </section>
     <section>
-        <h2>functions</h2>
+        <h2>Functions</h2>
         <div>
-            <p>
-                functions lets you group a series of statements together to perform 
-                a specific task. If different parts of a script repeats the same task, 
-                you can reuse the function rather than repeating the same set of statements. 
-            </p>
-            <p>
-                statements in a fuction arent always executed when a page load, so functions 
-                also offer a way to store the steps needed to achieve a task. Script can ask 
-                the function to perform all of those steps as and when they are required. 
-                You might have a task that you only want to perform if user clicks 
-                on a specific element in the page. Example  - 'Add to Cart' 'Buy Now' or 'Start Game'.
-            </p>
-            <p>
-                If you are going to ask the function to perform its task later, you need to give 
-                the function a name. That name should describe the task it is performing. When 
-                you ask it to perform its task, its known as 'Calling' the function.
-            </p>
-            <p>
-                the steps that the function needs to perform its task are packaged up in a code 
-                block. A code block consist of one or more statements contained within curly 
-                brackets {...}. 
+            <div class="flex-center">
+                <p>
+                    Functions lets you group a series of statements together to perform 
+                    a specific task. If different parts of a script repeats the same task, 
+                    you can reuse the function rather than repeating the same set of statements. 
+                </p>
+                <p>
+                    Statements in a function arent always executed when a page load, so functions 
+                    also offer a way to store the steps needed to achieve a task. Script can ask 
+                    the function to perform all of those steps as and when they are required. 
+                    You might have a task that you only want to perform if user clicks 
+                    on a specific element in the page. Example  - 'Add to Cart' 'Buy Now' or 'Start Game'.
+                </p>
+            </div>
+            <div class="flex-center">
+                <p>
+                    If you are going to ask the function to perform its task later, you need to give 
+                    the function a name. That name should describe the task it is performing. When 
+                    you ask it to perform its task, its known as 'Calling' the function.
+                </p>
+                <p>
+                    the steps that the function needs to perform its task are packaged up in a code 
+                    block. A code block consist of one or more statements contained within curly 
+                    brackets {...}. 
+                </div>
             </p>
             <h3>Declaring a function</h3>
             <p>
                 To crate a function, give it a name than write the statements needed to achieve 
                 its task inside the curly brackets.
             </p>
-            <code>
-                function sayHello() { <br />
-                    <span class="indent">
-                        document.write("hello") <br />
-                    </span> 
-                }
-            </code>
+            <div class="flex-center">
+                <img src="/images/placeholders/function-img.png" alt="">
+            </div>
             <p>
                 function = function keyword; <br />
                 sayHello() = function name/Identifier<br />
@@ -141,5 +169,8 @@
             </p>
         </div>
     </section>
+    <div id="bottom">
+        <a href="#dom-body">to top</a>
+    </div>
 </body>
 </html>

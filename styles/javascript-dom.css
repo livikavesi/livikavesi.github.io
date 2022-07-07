@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-goldenrod: gold;
+    --color-highlight: rgba(205, 230, 236, 0.715);
+    --color-white: #ededed;
+    --color-fade: #edededc3;
+    --color-black: black;
+  }
+#dom-body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1, h2 {
+    text-align: center;
+    padding: 20px 20px 10px 20px;
+    background-color: var(--color-highlight);
+}
+section {
+    max-width: 800px;
+    background-color: var(--color-fade);
+    margin: 10px;
+}
+p {
+    padding: 10px 25px;
+}
+#code-icon {
+    width: 40%;
+    height: auto;
+    
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+.flex-reverse {
+    flex-direction: row-reverse;
+}
+.example-car {
+    width: 25vw;
+    height: 30vh;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-highlight);
+}
+#car-html {
+    background-image: url(/images/placeholders/plain-car.png);
+    background-size: cover;
+}
+#car-css {
+    background-image: url(/images/placeholders/car-style.webp);
+    background-size: cover;
+    background-position: center;
+}
+#car-js {
+    background-image: url(/images/placeholders/js-car.jpg);
+    background-size: cover;
+}
+#car-html:hover {
+    filter:  grayscale(100);
+}
+#car-css:hover {
+    filter:  grayscale(100);
+}
+#car-js:hover {
+    filter:  grayscale(100);
+    
+}
+#dom-tree, #obj-eg  {
+    display: flex;
+    justify-content: center;
+}
+#dom-tree img {
+    width: 35vw;
+    padding: 10px;
+}
+#obj-eg img {
+    width: 35vw;
+    padding: 10px;
+}
