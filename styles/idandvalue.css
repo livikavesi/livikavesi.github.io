@@ -6,24 +6,7 @@
     --color-fade: #edededc3;
     --color-black: black;
   }
-/* nav bar */
-/* nav bar */
-/* nav bar */
-.blog-nav {
-  position: fixed;
-  margin: 15px;
-  width: 60px;
-  height: 60px;
-}
-.blog-nav img {
-  width: 100%;
-  height: auto;
-  border-radius: 60px;
-  border: 2px solid var(--color-black);
-}
-.blog-nav img:hover {
-  border: 3px solid var(--color-highlight);
-}
+
 /* main */
 /* main */
 /* main */

@@ -11,40 +11,6 @@
   --color-fade: #edededc3;
   --color-black: black;
 }
-/* nav bar */
-/* nav bar */
-/* nav bar */
-.blog-nav {
-  border-top: 2px solid var(--color-black);
-  border-bottom: 2px solid var(--color-black);
-  display: flex;
-  font-size: 1.2rem;
-  font-weight: 500;
-  position: fixed;
-  background-color: var(--color-fade);
-}
-.blog-nav div {
-  width: 250px;
-  height: 50px;
-  display: inherit;
-  justify-content: center;
-  align-items: center;
-}
-.blog-nav a {
-  color: var(--color-black);
-  text-transform: uppercase;
-  text-decoration: none;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  line-height: 50px;
-}
-.blog-nav a:hover {
-  background-color: var(--color-highlight);
-  font-size: 110%;
-  font-weight: bolder;
-  text-shadow: -1px -1px 1px var(--color-goldenrod);
-}
 /* main */
 /* main */
 /* main */

@@ -23,6 +23,25 @@
   background-color: var(--color-white);
   font-weight: bolder;
 }
+/* blog nav - */
+/* blog nav - */
+/* blog nav - */
+.blog-nav {
+  position: fixed;
+  left: 10px;
+  margin: 15px;
+  width: 60px;
+  height: 60px;
+}
+.blog-nav img {
+  width: 100%;
+  height: auto;
+  border-radius: 60px;
+  border: 2px solid var(--color-black);
+}
+.blog-nav img:hover {
+  border: 3px solid var(--color-highlight);
+}
 /* hero */
 /* hero */
 /* hero */
