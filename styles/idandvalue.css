@@ -10,35 +10,19 @@
 /* nav bar */
 /* nav bar */
 .blog-nav {
-  border-top: 2px solid var(--color-black);
-  border-bottom: 2px solid var(--color-black);
-  display: flex;
-  font-size: 1.2rem;
-  font-weight: 500;
   position: fixed;
-  background-color: var(--color-fade);
+  margin: 15px;
+  width: 60px;
+  height: 60px;
 }
-.blog-nav div {
-  width: 250px;
-  height: 50px;
-  display: inherit;
-  justify-content: center;
-  align-items: center;
-}
-.blog-nav a {
-  color: var(--color-black);
-  text-transform: uppercase;
-  text-decoration: none;
+.blog-nav img {
   width: 100%;
-  height: 100%;
-  text-align: center;
-  line-height: 50px;
+  height: auto;
+  border-radius: 60px;
+  border: 2px solid var(--color-black);
 }
-.blog-nav a:hover {
-  background-color: var(--color-highlight);
-  font-size: 110%;
-  font-weight: bolder;
-  text-shadow: -1px -1px 1px var(--color-goldenrod);
+.blog-nav img:hover {
+  border: 3px solid var(--color-highlight);
 }
 /* main */
 /* main */
