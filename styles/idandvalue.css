@@ -20,6 +20,7 @@
   height: 40vh;
   padding-top: 35px;
   background-image: url(/images/family.jpg);
+  background-repeat: no-repeat;
 }
 #profile-img-container {
   width: 250px;
@@ -61,11 +62,11 @@ table {
   /* max-width: 1000px; */
 }
 .question {
-  font-size: 2rem;
+  font-weight: 700;
 }
 .answer,
 table {
-  font-size: 1.3rem;
+  /* font-size: 1.3rem; */
   background-color: var(--color-white);
 }
 table {
