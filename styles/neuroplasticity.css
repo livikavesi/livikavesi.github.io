@@ -1,12 +1,43 @@
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+:root {
+  --color-goldenrod: gold;
+  --color-highlight: rgba(205, 230, 236, 0.715);
+  --color-white: #ededed;
+  --color-fade: #edededc3;
+  --color-black: black;
 }
-main div p{
-    padding: 20px 12vw;
+main,
+section,
+section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-highlight);
+  padding: 10px;
 }
+main div p,
+section p {
+  padding: 20px 12vw;
+}
+h2,
 h3 {
-    text-align: center;
+  text-align: center;
+}
+.image-container {
+  width: 70vw;
+  height: 45vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* Problem Solving */
+/* Problem Solving */
+/* Problem Solving */
+#ps-imgOne {
+  background-image: url(/images/placeholders/q.png);
+}
+#ps-imgTwo {
+  background-image: url(/images/placeholders/q&a.png);
+}
+#ps-imgThree {
+  background-image: url(/images/placeholders/fizzbuzz.png);
 }

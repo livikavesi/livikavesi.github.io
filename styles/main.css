@@ -106,7 +106,8 @@
 /* img container */
 #main-img-container, 
 #second-img-container,
-#third-img-container {
+#third-img-container,
+#sprint-img-container {
   display: flex;
   margin: 20px 10vw;
 }
