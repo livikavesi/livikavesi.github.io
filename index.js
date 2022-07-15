@@ -27,7 +27,7 @@ blogBtn.onclick = () => {
 homeBtn.onclick = () => {
     secondImgContainer.style.display = 'none';
     thirdImgContainer.style.display = 'none';
-    mainImgContainer.style.display = 'flex';
+    mainImgContainer.style.display = 'block';
     aboutContent.style.display = 'none';
     contactContent.style.display = 'none';
 }
