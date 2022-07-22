@@ -41,3 +41,7 @@ h3 {
 #ps-imgThree {
   background-image: url(/images/placeholders/fizzbuzz.png);
 }
+#video {
+  display: flex;
+  justify-content: center;
+}
