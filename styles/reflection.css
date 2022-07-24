@@ -1,0 +1,36 @@
+:root {
+    --color-goldenrod: gold;
+    --color-highlight: rgba(205, 230, 236, 0.715);
+    --color-white: #ededed;
+    --color-fade: #edededc3;
+    --color-black: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-highlight);
+}
+
+.constainer {
+    max-width: 650px;
+    padding: 10px;
+}
+
+h3 {
+    background-color: var(--color-highlight);
+    text-align: center;
+    padding: 5px;
+}
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.constainer p {
+ padding: 10px;
+ background-color: var(--color-black);
+ color: var(--color-white);
+}
