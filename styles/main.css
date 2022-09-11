@@ -13,11 +13,7 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-#main-body {
-  font-family: "Courier New", Courier, monospace;
-  letter-spacing: 0.25em;
-  background-color: var(--color-white);
-}
+
 #page {
   padding: 20px 0;
   background-color: var(--color-white);
@@ -45,6 +41,7 @@
 /* hero */
 /* hero */
 /* hero */
+
 #logo {
   display: flex;
   justify-content: center;
@@ -272,7 +269,17 @@
 /* responsive */
 /* responsive */
 /* responsive */
-@media (max-width: 750px) {
+@media (max-width: 1200px) {
+  #main {
+    background-color: #3b589811;
+  }
+  #main-body {
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 0.25em;
+    background-color: var(--color-white);
+  }
+}
+@media (max-width: 768px) {
   #welcome-container {
     background-color: var(--color-highlight);
   }
@@ -293,9 +300,15 @@
   #main-nav a {
     font-size: 13px;
   }
+  #main {
+    background-color: #3b589825;
+  }
 
 }
-  @media (max-width: 420px) {
+  @media (max-width: 320px) {
+    .flex {
+      flex-direction: column;
+    }
   #profile {
     display: none;
   }
