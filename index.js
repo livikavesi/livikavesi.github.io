@@ -47,7 +47,21 @@ contactBtn.onclick = () => {
     contactContent.style.display = 'flex';
 }
 
-fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
-    .then(response => response.json())
-    .then(data => console.log(data))
-    .catch(error => console.log(error));
+async function fetchData() {
+    try {
+        let response = await fetch("https://pokeapi.co/api/v2/pokemon/pikachu");
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! Could not fetch resource. status: ${response.status}`);
+        }
+        let data = await response.json();
+        console.log(data);
+    } catch (error) {
+        console.log(error);
+    }
+
+}
+// fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
+//     .then(response => response.json())
+//     .then(data => console.log(data))
+//     .catch(error => console.log(error));
