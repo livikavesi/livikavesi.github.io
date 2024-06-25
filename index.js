@@ -49,12 +49,20 @@ contactBtn.onclick = () => {
 
 async function fetchData() {
     try {
-        let response = await fetch("https://pokeapi.co/api/v2/pokemon/pikachu");
+        const pokemonName = document.getElementById("pokemonName").ariaValueMax.toLowerCase();
+        const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
 
         if (!response.ok) {
             throw new Error(`HTTP error! Could not fetch resource. status: ${response.status}`);
         }
-        let data = await response.json();
+
+        const data = await response.json();
+        const pokemonSrite = data.sprites.front_default;
+        const imgElement = document.getElementById("pokemonSprite");
+
+        imgElement.src = pokemonSrite;
+        imgElement.style.display = "block";
+        
         console.log(data);
     } catch (error) {
         console.log(error);
