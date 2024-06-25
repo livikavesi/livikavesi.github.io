@@ -49,7 +49,7 @@ contactBtn.onclick = () => {
 
 async function fetchData() {
     try {
-        const pokemonName = document.getElementById("pokemonName").ariaValueMax.toLowerCase();
+        const pokemonName = document.getElementById("pokemonName").value.toLowerCase();
         const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
 
         if (!response.ok) {
@@ -57,12 +57,12 @@ async function fetchData() {
         }
 
         const data = await response.json();
-        const pokemonSrite = data.sprites.front_default;
+        const pokemonSprite = data.sprites.front_default;
         const imgElement = document.getElementById("pokemonSprite");
 
-        imgElement.src = pokemonSrite;
+        imgElement.src = pokemonSprite;
         imgElement.style.display = "block";
-        
+
         console.log(data);
     } catch (error) {
         console.log(error);
