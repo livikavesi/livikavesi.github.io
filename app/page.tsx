@@ -1,5 +1,5 @@
 import React from 'react';
-import Feed from '@components/Feed';
+// import Feed from '@components/Feed';
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
         <p className='desc text-center'>
             Proptopia is an open-source AI propting tool for modern world to discover, create and share creative prompts.
         </p>
-        <Feed />
+        {/* <Feed /> */}
     </section>
   )
 }
