@@ -89,13 +89,30 @@ const Nav = () => {
 
             {toggleDropdown && (
               <div className="dropdown">
-                <Link 
-                  href="/profile" 
+                <Link
+                  href="/profile"
                   className="dropdown_link"
                   onClick={() => setToggleDropdown(false)}
                 >
                   My Profile
                 </Link>
+                <Link
+                  href="/create-propt"
+                  className="dropdown_link"
+                  onClick={() => setToggleDropdown(false)}
+                >
+                  Create Prompt
+                </Link>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setToggleDropdown(false);
+                    signOut();
+                  }}
+                  className="mt-5 w-full black_btn"
+                >
+                  Sign Out
+                </button>
 
                 <button
                   type="button"
